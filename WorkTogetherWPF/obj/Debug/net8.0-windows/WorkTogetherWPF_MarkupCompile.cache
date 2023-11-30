@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\App.xaml
-52049775247
+10-1240801174
 
-11-36319027
-227305464300
-MainWindow.xaml;Views\BaieView.xaml;Views\HomeView.xaml;Views\UserView.xaml;Windows\WindowLogin.xaml;
+18-980605015
+228405763904
+MainWindow.xaml;Views\BaieView.xaml;Views\ForfaitView.xaml;Views\HomeView.xaml;Views\ReportView.xaml;Views\UserView.xaml;Windows\WindowAddAdmin.xaml;Windows\WindowAddClient.xaml;Windows\WindowAddComptable.xaml;Windows\WindowLogin.xaml;
 
 False
 

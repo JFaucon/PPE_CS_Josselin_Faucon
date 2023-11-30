@@ -26,7 +26,7 @@
         <Label Content="Email" Grid.Row="1" Grid.Column="1"/>
         <TextBox x:Name="Email" Grid.Row="2" Grid.Column="1"></TextBox>
         <Label Content="Mot de passe" Grid.Row="3" Grid.Column="1"/>
-        <TextBox x:Name="pwd" Grid.Row="4" Grid.Column="1"></TextBox>
+        <PasswordBox x:Name="pwd" Grid.Row="4" Grid.Column="1"></PasswordBox>
         <Button Content="se connecter" Click="Login_Click" Grid.Row="6" Grid.Column="1"/>
     </Grid>
 </Window>

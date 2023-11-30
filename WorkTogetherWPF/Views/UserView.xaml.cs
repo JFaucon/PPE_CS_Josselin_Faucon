@@ -15,6 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WorkTogetherLib.Class;
 using WorkTogetherWPF.ViewModels;
+using WorkTogetherWPF.Windows;
 
 namespace WorkTogetherWPF.Views
 {
@@ -29,14 +30,23 @@ namespace WorkTogetherWPF.Views
             this.DataContext = new UserViewModel();
         }
 
-        private void Add_Click(object sender, RoutedEventArgs e)
+        private void AddClient_Click(object sender, RoutedEventArgs e)
         {
-
+            ((UserViewModel)this.DataContext).AddClient();
+        }
+        private void AddComptable_Click(object sender, RoutedEventArgs e)
+        {
+            ((UserViewModel)this.DataContext).AddComptable();
         }
 
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
+            ((UserViewModel)this.DataContext).DeleteUser();
+        }
 
+        private void AddAdmin_Click(object sender, RoutedEventArgs e)
+        {
+            ((UserViewModel)this.DataContext).AddAdmin();
         }
     }
 }

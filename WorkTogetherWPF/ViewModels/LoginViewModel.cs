@@ -8,5 +8,6 @@ namespace WorkTogetherWPF.ViewModels
 {
     class LoginViewModel
     {
+
     }
 }

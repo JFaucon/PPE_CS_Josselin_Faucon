@@ -12,11 +12,17 @@
             <ColumnDefinition MaxWidth="1000"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid ItemsSource="{Binding Baies}" AutoGenerateColumns="False" Grid.Column="1"  CanUserAddRows="False" CanUserDeleteRows="False">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DataGrid ItemsSource="{Binding Baies}" SelectedItem="{Binding SelectedBaie}" AutoGenerateColumns="False" Grid.Column="1"  IsReadOnly="True" Grid.RowSpan="2">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Numero de baie" Binding="{Binding Code}" Width="*" />
                 <DataGridTextColumn Header="Nombre d'emplacement" Binding="{Binding NbSpot}" Width="*" />
             </DataGrid.Columns>
         </DataGrid>
+        <Button x:Name="AjouterBaie" Click="AddBaie_Click" Content="Ajouter" Grid.Column="2" Grid.Row="0"/>
+        <Button x:Name="DeleteBaie" Click="DeleteBaie_Click" Content="Supprimer" Grid.Column="2" Grid.Row="1"/>
     </Grid>
 </UserControl>

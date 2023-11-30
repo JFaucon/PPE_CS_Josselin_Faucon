@@ -44,5 +44,17 @@ namespace WorkTogetherWPF
             DockPanel.Children.Clear();
             DockPanel.Children.Add(new BaieView());
         }
+
+        private void Report_Click(object sender, RoutedEventArgs e)
+        {
+            DockPanel.Children.Clear();
+            DockPanel.Children.Add(new ReportView());
+        }
+
+        private void Forfait_Click(object sender, RoutedEventArgs e)
+        {
+            DockPanel.Children.Clear();
+            DockPanel.Children.Add(new ForfaitView());
+        }
     }
 }

@@ -7,6 +7,7 @@ C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkToge
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherLib\obj\Debug\net8.0\WorkTogetherLib.AssemblyInfoInputs.cache
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherLib\obj\Debug\net8.0\WorkTogetherLib.AssemblyInfo.cs
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherLib\obj\Debug\net8.0\WorkTogetherLib.csproj.CoreCompileInputs.cache
+C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherLib\obj\Debug\net8.0\WorkTogetherLib.sourcelink.json
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherLib\obj\Debug\net8.0\WorkTogetherLib.dll
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherLib\obj\Debug\net8.0\refint\WorkTogetherLib.dll
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherLib\obj\Debug\net8.0\WorkTogetherLib.pdb

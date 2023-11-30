@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorkTogetherLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73f52d574b82437298693efdae7dc72e39049f5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorkTogetherLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorkTogetherLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

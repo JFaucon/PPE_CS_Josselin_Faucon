@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 
 namespace WorkTogetherLib.Class;
 
-public partial class Forfait
+public partial class Forfait : IEditableObject
 {
     public int Id { get; set; }
 
@@ -20,4 +22,23 @@ public partial class Forfait
     public string ImgPath { get; set; } = null!;
 
     public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
+
+    public void BeginEdit()
+    {
+        
+    }
+
+    public void CancelEdit()
+    {
+        
+    }
+
+    public void EndEdit()
+    {
+        using WorkTogetherContext context = new WorkTogetherContext();
+        {
+            context.Entry(this).State = EntityState.Modified;
+            context.SaveChanges();
+        }
+    }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using WorkTogetherLib.Class;
 
 namespace WorkTogetherWPF
 {
@@ -9,6 +10,7 @@ namespace WorkTogetherWPF
     /// </summary>
     public partial class App : Application
     {
+        public User User { get; set; }
     }
 
 }

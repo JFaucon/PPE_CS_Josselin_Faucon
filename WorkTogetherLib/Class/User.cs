@@ -30,26 +30,15 @@ public partial class User : IEditableObject
 
     public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
 
-    private User backupCopy;
 
     public void BeginEdit()
     {
-        // Sauvegarde une copie des données originales
-        backupCopy = MemberwiseClone() as User;
+
     }
 
     public void CancelEdit()
     {
-        // Annule les modifications en restaurant les données originales
-        if (backupCopy != null)
-        {
-            Id = backupCopy.Id;
-            Email = backupCopy.Email;
-            FirstName = backupCopy.FirstName;
-            LastName = backupCopy.LastName;
-            Roles = backupCopy.Roles;
-            Discr = backupCopy.Discr;
-        }
+
     }
 
     public void EndEdit()

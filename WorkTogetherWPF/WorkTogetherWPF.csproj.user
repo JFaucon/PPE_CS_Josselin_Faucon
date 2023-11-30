@@ -10,10 +10,25 @@
     <Compile Update="Views\BaieView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ForfaitView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ReportView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\UserView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\WindowAddAdmin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\WindowAddClient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\WindowAddComptable.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Windows\WindowLogin.xaml.cs">
@@ -27,10 +42,25 @@
     <Page Update="Views\BaieView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\ForfaitView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\HomeView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\ReportView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\UserView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\WindowAddAdmin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\WindowAddClient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\WindowAddComptable.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\WindowLogin.xaml">

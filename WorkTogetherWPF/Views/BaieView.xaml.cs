@@ -26,5 +26,13 @@ namespace WorkTogetherWPF.Views
             InitializeComponent();
             this.DataContext = new BaieViewModel();
         }
+        private void AddBaie_Click(object sender, RoutedEventArgs e)
+        {
+            ((BaieViewModel)this.DataContext).AddBaie();
+        }
+        private void DeleteBaie_Click(object sender, RoutedEventArgs e)
+        {
+            ((BaieViewModel)this.DataContext).DeleteBaie();
+        }
     }
 }
