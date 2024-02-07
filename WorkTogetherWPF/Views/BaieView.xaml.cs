@@ -17,19 +17,30 @@ using WorkTogetherWPF.ViewModels;
 namespace WorkTogetherWPF.Views
 {
     /// <summary>
-    /// Logique d'interaction pour BaieView.xaml
+    /// Interaction logic for BaieView.xaml
     /// </summary>
     public partial class BaieView : UserControl
     {
+        /// <summary>
+        /// Initialise une nouvelle instance de la classe <see cref="BaieView"/>.
+        /// </summary>
         public BaieView()
         {
             InitializeComponent();
             this.DataContext = new BaieViewModel();
         }
+
+        /// <summary>
+        /// Événement déclenché lors du clic sur le bouton "Ajouter Baie".
+        /// </summary>
         private void AddBaie_Click(object sender, RoutedEventArgs e)
         {
             ((BaieViewModel)this.DataContext).AddBaie();
         }
+
+        /// <summary>
+        /// Événement déclenché lors du clic sur le bouton "Supprimer Baie".
+        /// </summary>
         private void DeleteBaie_Click(object sender, RoutedEventArgs e)
         {
             ((BaieViewModel)this.DataContext).DeleteBaie();

@@ -13,10 +13,17 @@
         </Grid.ColumnDefinitions>
 
         <StackPanel Grid.Column="0">
-            <Button x:Name="Utilisateur" Click="Utilisateur_Click" Content="Utilisateur"/>
-            <Button x:Name="Baie" Click="Baie_Click" Content="Baie"/>
-            <Button x:Name="Report" Click="Report_Click" Content="Report"/>
-            <Button x:Name="Forfait" Click="Forfait_Click" Content="Forfait"/>
+            <Image Source="C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\src\img\brand.png" Grid.Row="0" Grid.Column="1"/>
+            <Button x:Name="Utilisateur" Click="Utilisateur_Click" Content="Utilisateur" Margin="5px" Style="{StaticResource ButtonStyle}">
+            </Button>
+            <Button x:Name="Baie" Click="Baie_Click" Content="Baie" Margin="5px" Style="{StaticResource ButtonStyle}">
+            </Button>
+            <Button x:Name="Report" Click="Report_Click" Content="Report" Margin="5px" Style="{StaticResource ButtonStyle}">
+            </Button>
+            <Button x:Name="Forfait" Click="Forfait_Click" Content="Forfait" Margin="5px" Style="{StaticResource ButtonStyle}">
+            </Button>
+            <Button x:Name="Reservation" Click="Reservation_Click" Content="Reservation" Margin="5px" Style="{StaticResource ButtonStyle}">
+            </Button>
         </StackPanel>
         <DockPanel Grid.Column="1" x:Name="DockPanel">
             <views:HomeView/>

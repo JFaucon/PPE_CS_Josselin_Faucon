@@ -79,3 +79,9 @@ C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkToge
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\obj\Debug\net8.0-windows\Views\ReportView.baml
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\obj\Debug\net8.0-windows\Views\ForfaitView.g.cs
 C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\obj\Debug\net8.0-windows\Views\ForfaitView.baml
+C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\obj\Debug\net8.0-windows\Views\ReservationView.g.cs
+C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\obj\Debug\net8.0-windows\Views\ReservationView.baml
+C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\bin\Debug\net8.0-windows\BouncyCastle.Crypto.dll
+C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\obj\Debug\net8.0-windows\App.baml
+C:\Users\user-pc\OneDrive\Documents\IIA\E2\ppe\ClientLourd\WorkTogether\WorkTogetherWPF\obj\Debug\net8.0-windows\Styles\Style.baml

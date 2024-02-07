@@ -1,36 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using WorkTogetherLib.Class;
 
 namespace WorkTogetherWPF.Windows
 {
     /// <summary>
-    /// Logique d'interaction pour WindowAddComptable.xaml
+    /// Interaction logic for WindowAddComptable.xaml
     /// </summary>
     public partial class WindowAddComptable : Window
     {
-        private string _Email;
+        /// <summary>
+        /// Obtient ou définit l'email du comptable.
+        /// </summary>
+        public string Email { get; set; }
 
-        private string _Password;
+        /// <summary>
+        /// Obtient ou définit le mot de passe du comptable.
+        /// </summary>
+        public string Password { get; set; }
 
-        public string Email { get => _Email; set => _Email = value; }
-        public string Password { get => _Password; set => _Password = value; }
+        /// <summary>
+        /// Initialise une nouvelle instance de la classe <see cref="WindowAddComptable"/>.
+        /// </summary>
         public WindowAddComptable()
         {
             InitializeComponent();
             this.DataContext = this;
         }
+
+        /// <summary>
+        /// Événement déclenché lors de la soumission du formulaire pour ajouter un comptable.
+        /// </summary>
         private void SubmitComptable_Click(object sender, RoutedEventArgs e)
         {
             this.Close();

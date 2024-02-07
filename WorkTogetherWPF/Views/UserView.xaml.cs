@@ -24,26 +24,42 @@ namespace WorkTogetherWPF.Views
     /// </summary>
     public partial class UserView : UserControl
     {
+        /// <summary>
+        /// Initialise une nouvelle instance de la classe <see cref="UserView"/>.
+        /// </summary>
         public UserView()
         {
             InitializeComponent();
             this.DataContext = new UserViewModel();
         }
 
+        /// <summary>
+        /// Événement déclenché lors du clic sur le bouton "AddClient".
+        /// </summary>
         private void AddClient_Click(object sender, RoutedEventArgs e)
         {
             ((UserViewModel)this.DataContext).AddClient();
         }
+
+        /// <summary>
+        /// Événement déclenché lors du clic sur le bouton "AddComptable".
+        /// </summary>
         private void AddComptable_Click(object sender, RoutedEventArgs e)
         {
             ((UserViewModel)this.DataContext).AddComptable();
         }
 
+        /// <summary>
+        /// Événement déclenché lors du clic sur le bouton "Delete".
+        /// </summary>
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             ((UserViewModel)this.DataContext).DeleteUser();
         }
 
+        /// <summary>
+        /// Événement déclenché lors du clic sur le bouton "AddAdmin".
+        /// </summary>
         private void AddAdmin_Click(object sender, RoutedEventArgs e)
         {
             ((UserViewModel)this.DataContext).AddAdmin();

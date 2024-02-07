@@ -17,15 +17,22 @@ using WorkTogetherWPF.ViewModels;
 namespace WorkTogetherWPF.Views
 {
     /// <summary>
-    /// Logique d'interaction pour ReportView.xaml
+    /// Interaction logic for ReportView.xaml
     /// </summary>
     public partial class ReportView : UserControl
     {
+        /// <summary>
+        /// Initialise une nouvelle instance de la classe <see cref="ReportView"/>.
+        /// </summary>
         public ReportView()
         {
             InitializeComponent();
             this.DataContext = new ReportViewModel();
         }
+
+        /// <summary>
+        /// Événement déclenché lors du clic sur le bouton "Supprimer".
+        /// </summary>
         private void Delete_Click(object sender, RoutedEventArgs e)
         {
             ((ReportViewModel)this.DataContext).DeleteReport();

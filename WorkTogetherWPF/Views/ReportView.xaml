@@ -18,6 +18,6 @@
                 <DataGridTextColumn Header="Corps" Binding="{Binding Object}" Width="*" />
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="Supprimer" Click="Delete_Click" Content="Supprimer" Grid.Column="2"/>
+        <Button x:Name="Supprimer" Click="Delete_Click" Content="Supprimer" Grid.Column="2" Visibility="{Binding Path=User, Source={x:Static Application.Current}, Converter={StaticResource SharedUserRoleToVisibilityConverter}, ConverterParameter='ROLE_ADMIN'}"/>
     </Grid>
 </UserControl>

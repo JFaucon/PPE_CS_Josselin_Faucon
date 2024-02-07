@@ -9,10 +9,10 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition MaxWidth="1000"/>
+            <ColumnDefinition Width="1000"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <DataGrid ItemsSource="{Binding Forfaits}" AutoGenerateColumns="False" Grid.Column="1" CanUserAddRows="False" CanUserDeleteRows="False">
+        <DataGrid ItemsSource="{Binding Forfaits}" AutoGenerateColumns="False" Grid.Column="1" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="{Binding Path=User, Source={x:Static Application.Current}, Converter={StaticResource SharedObjectToisReadOnlyConverter}, ConverterParameter='ROLE_ADMIN'}">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" />
                 <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*" />
