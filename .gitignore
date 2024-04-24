@@ -1,1 +1,6 @@
-./vs
+.vs/
+WorkTogetherLib/bin/
+WorkTogetherLib/obj/
+
+WorkTogetherWPF/bin/
+WorkTogetherWPF/obj/
