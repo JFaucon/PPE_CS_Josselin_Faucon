@@ -53,7 +53,7 @@ namespace WorkTogetherWPF.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WorkTogetherWPF;V1.0.0.0;component/windows/windowaddcomptable.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WorkTogetherWPF;component/windows/windowaddcomptable.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\WindowAddComptable.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

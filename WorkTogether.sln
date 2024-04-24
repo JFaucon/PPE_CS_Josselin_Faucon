@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkTogetherWPF", "WorkTogetherWPF\WorkTogetherWPF.csproj", "{BA5B2C73-5B7D-403A-85CA-C072980715D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTogetherWPF", "WorkTogetherWPF\WorkTogetherWPF.csproj", "{BA5B2C73-5B7D-403A-85CA-C072980715D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkTogetherLib", "WorkTogetherLib\WorkTogetherLib.csproj", "{B83C839F-DE9E-424E-AD8D-B5D2B20CFB92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkTogetherLib", "WorkTogetherLib\WorkTogetherLib.csproj", "{B83C839F-DE9E-424E-AD8D-B5D2B20CFB92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{789712C6-1ECF-4801-B048-35EA84BEDBD6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -61,7 +61,7 @@ namespace WorkTogetherWPF.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WorkTogetherWPF;V1.0.0.0;component/views/reservationview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WorkTogetherWPF;component/views/reservationview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ReservationView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

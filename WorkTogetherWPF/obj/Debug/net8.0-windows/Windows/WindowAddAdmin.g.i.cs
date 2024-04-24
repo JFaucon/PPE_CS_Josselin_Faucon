@@ -53,7 +53,7 @@ namespace WorkTogetherWPF.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WorkTogetherWPF;V1.0.0.0;component/windows/windowaddadmin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WorkTogetherWPF;component/windows/windowaddadmin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\WindowAddAdmin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

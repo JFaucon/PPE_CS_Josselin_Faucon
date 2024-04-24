@@ -52,7 +52,7 @@ namespace WorkTogetherWPF.ViewModels
 
             foreach (Reservation resa in this.Reservations)
             {
-                stringBuilder.AppendLine("Code : " + resa.Number + " - Prix : " + resa.Forfait.Price * resa.Quantity + "€ - Nom du pack : " + resa.Forfait.Name);
+                stringBuilder.AppendLine("Code : " + resa.Number + " - Prix : " + resa.Forfait.Price * resa.Quantity /100 + "€ - Nom du pack : " + resa.Forfait.Name);
             }
 
             // Création du fichier PDF
